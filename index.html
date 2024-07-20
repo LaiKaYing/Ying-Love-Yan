@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>特效展示页面</title>
+    <style>
+        .process_gif {
+            background-image: url("./test.gif");
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0 auto;
+            width: 800px;
+            height: 500px;
+            position: relative;
+            z-index: 1;
+        }
+        .show_txt {
+            margin: 0 auto;
+            background-color: rgb(126, 194, 239);
+            width: 500px;
+            height: 170px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            text-align: center;
+            padding: 10px;
+            z-index: 1;
+            font-size: 40px;
+            font-weight: bold;
+        }
+        .large_gif {
+            width: 1200px;
+            height: 800px;
+        }
+    </style>
+</head>
+<body>
+    <div class="process_gif" id="process"></div>
+    <div class="show_txt" id="content_1"></div>
+    <script src="script.js"></script>
+</body>
+</html>
